@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/home.css" />
+    <script rel="text/javascript" src="../javascript/acciones.js"></script>
+    <title>Document</title>
+</head>
+
+<body id="b">
+    <img id="logo" src="../imagenes/logo.png" alt="logo de pokemon">
+    <aside id="search">
+        <input type="text" id="pok" size="50">
+        <input type="button" value="SEARCH" onclick="encerar(),mostrarDatos()">
+    </aside>
+    <aside id="prev">
+        <input type="button" id="prevMove" value="&laquo;" style="display: none;" onclick="prevMove()">
+        <input type="button" id="prevIndices" value="&laquo;" style="display: none;" onclick="prevIndices()">
+    </aside>
+    <!--<input type="button" id="prevIndices" value="&laquo;" style="display: none;" onclick="nextIndices()">-->
+    <div id="centrar">
+        <div id="foto"></div>
+        <aside id="Habilidades"></aside>
+        <div id="tablaHabi"></div>
+        <aside id="movimientos"></aside>
+        <div id="tablaMoves"></div>
+        <aside id="gameIndices"></aside>
+        <div id="tablaIndices"></div>
+    </div>
+    <aside id="next">
+        <input type="button" id="nextMove" value="&raquo;" style="display: none;" onclick="nextMove()">
+        <input type="button" id="nextIndices" value="&raquo;" style="display: none;" onclick="nextIndices()">
+    </aside>
+    <!--<input type="button" id="nextIndices" value="&raquo;" style="display: none;" onclick="prevIndices()">-->
+</body>
+
+</html>

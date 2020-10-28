@@ -1,0 +1,90 @@
+body {
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
+}
+
+#logo {
+    width: 45%;
+    height: 45%;
+    margin-top: 0.25%;
+    margin-left: 25%;
+}
+
+#search {
+    margin-top: 2%;
+    margin-left: 32%;
+}
+
+h4 {
+    color: cornflowerblue;
+    background-color: rgb(212, 106, 127, 00.25);
+    width: max-content;
+}
+
+#Tfoto {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(231, 241, 240, 0.8);
+    border-radius: 5%;
+}
+
+#foto {
+    width: 250px;
+    height: 250px;
+    margin-left: 12%;
+}
+
+#prev {
+    float: left;
+    height: 500px;
+    width: max-content;
+    margin-left: 30%;
+}
+
+#centrar {
+    float: left;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+#next {
+    float: left;
+    height: 500px;
+    margin-left: 1%;
+    width: max-content;
+}
+
+#prevMove {
+    margin-top: 450px;
+    margin-left: 30%;
+}
+
+#nextMove {
+    margin-top: 450px;
+    margin-left: 2%;
+}
+
+#prevIndices {
+    margin-top: 100px;
+    margin-left: 30%;
+}
+
+#nextIndices {
+    margin-top: 100px;
+    margin-left: 2%;
+}
+
+.tg-46ru {
+    background-color: rgb(247, 240, 72);
+    border-color: inherit;
+    text-align: left;
+    vertical-align: top
+}
+
+.tg-y698 {
+    background-color: rgb(255, 255, 255, 0.92);
+    border-color: inherit;
+    text-align: left;
+    vertical-align: top
+}
